@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>12_Pablo_Rodrigo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!--Elementos generados a partir del JSON-->
+            <main id="items" class="col-sm-8 row mt-5"></main>
+            <!--Carrito-->
+            <aside class="col-sm-4 mt-5">
+                <h2 class="text-center">Carrito</h2>
+                <!--Elementos del carrito-->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!--Precio Total-->
+                <p style="text-align: right;">Total $ <span id="total"></span></p>
+            </aside>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
